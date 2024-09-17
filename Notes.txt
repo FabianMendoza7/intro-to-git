@@ -1,0 +1,39 @@
+Using Git and GitHub
+
+Tuesday, September 17, 2024
+8:57 AM
+
+- Git is a version control system that allows developers to track changes made to their codebase over time.
+
+- Git is the gateway to GitHub, an online platform.
+- Treat your GitHub as an extension of your LinkedIn (you need a Job).
+
+Using GitHub
+- Create a repo on GitHub (remote repository)
+- Create a repo in your file system (local repository)
+	• A folder for a project
+	• Initiate a new repo
+- Connect them using the url provided by GitHub
+
+Basic commands
+- Go to your project folder
+- Right-click on it and open on Integrated terminal
+
+Config git:
+git config --global user.name "Your Name"
+git config --global user.mail "fmendoza.ospina7@outlook.com"
+git config --global init.defaultBranch main
+git config --global --list
+
+Connect repos local and remote:
+git init
+git remote add origin https://github.com/FabianMendoza7/intro-to-git.git (this is the bridge between your local and remotes repos)
+git remote -v
+
+
+Add, Commit, Push
+Commit means to create a save point in your project history
+
+git add .
+git commit -m 'Comment'
+git push -u origin master
